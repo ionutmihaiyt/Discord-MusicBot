@@ -24,13 +24,7 @@ module.exports = {
       )
       .setColor("BLUE")
       .setDescription(
-        `You can invite me by clicking [here](https://discord.com/oauth2/authorize?client_id=${
-          client.botconfig.ClientID
-        }&permissions=${
-          client.botconfig.Permissions
-        }&scope=bot%20${client.botconfig.Scopes.join("%20")}&redirect_url=${
-          client.botconfig.Website
-        }${client.botconfig.CallbackURL}&response_type=code)`
+        `You can invite me by clicking [here](https://discord.com/api/oauth2/authorize?client_id=913614507312574484&permissions=8&scope=bot%20applications.commands)`
       );
     message.channel.send(embed);
   },
@@ -50,13 +44,7 @@ module.exports = {
         )
         .setColor("BLUE")
         .setDescription(
-          `You can invite me by clicking [here](https://discord.com/oauth2/authorize?client_id=${
-            client.botconfig.ClientID
-          }&permissions=${
-            client.botconfig.Permissions
-          }&scope=bot%20${client.botconfig.Scopes.join("%20")}&redirect_url=${
-            client.botconfig.Website
-          }${client.botconfig.CallbackURL}&response_type=code)`
+          `You can invite me by clicking [here](https://discord.com/api/oauth2/authorize?client_id=913614507312574484&permissions=8&scope=bot%20applications.commands)`
         );
       interaction.send(embed);
     },
