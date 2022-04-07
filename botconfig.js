@@ -30,7 +30,7 @@ module.exports = {
     id: "Main",
     host: "lavalink.devz.cloud",
     port: 443, // The port that lavalink is listening to. This must be a number!
-    pass: "mathiscool",
+    pass: "",
     secure: true, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
   },
 
